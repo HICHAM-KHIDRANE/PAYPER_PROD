@@ -7,11 +7,11 @@ const data = [
     name: "Agriculture",
     url: "/sky/Agriculture"
   },
-  {
+/*   {
     img: "/sky/type/Mapping.png",
     name: "Mapping",
     url: "/sky/Mapping"
-  },
+  }, */
   {
     img: "/sky/type/Inspection.png",
     name: "Inspection",
@@ -73,7 +73,7 @@ const Sky = () => {
       </header>
 
       <section className="max-w-7xl px-6 py-10 sm:px-8 lg:px-10 mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           {data.map((item, i) => (
             <Link to={item.url} key={i} data-aos="zoom-in" className="group relative">
               <div className="overflow-hidden rounded-lg shadow-lg bg-white transform transition duration-300 group-hover:scale-105">
