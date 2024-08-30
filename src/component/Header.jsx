@@ -61,7 +61,8 @@ const menuData = [
       },
     ]
   }, 
-  { id: 6, newTab: false, title: "Contact", path: "/#contact" }
+  { id: 6, newTab: false, title: "Contact", path: "/#contact" },
+  { id: 7, newTab: false, title: "Demande de Devi", path: "/#DemandeDevi" }
 ];
 
 

@@ -16,6 +16,7 @@ import Agriculture from './page/Agriculture';
 import Inspection from './page/Inspection';
 import { useLocation } from "react-router-dom";
 import ServiceList from './component/ServiceList';
+import DemandeDevisApp from './component/DemandeDevisApp';
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -392,6 +393,8 @@ const Home = () => {
 
                 </div>
             </section>
+            <DemandeDevisApp/>
+
             {/* Portfolio */}
             <section id="project" className="py-16 bg-gray-100">
                 <div className="container mx-auto px-4">
